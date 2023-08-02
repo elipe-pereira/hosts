@@ -95,7 +95,6 @@ Deploy prod:
     repo_path: /srv/repo/packages
     distro: debian
     release: hanokh
-    package: hanokh-hosts
     priority: optional
     version: $CI_COMMIT_TAG
     architecture: all
