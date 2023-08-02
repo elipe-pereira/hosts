@@ -49,7 +49,7 @@
   - ssh "$ssh_access" "reprepro -b $repo_path/$distro includedeb $release /tmp/'$package'_'$version'_'$architecture'.deb"
 
   - echo "Limpando arquivos"
-  - ssh "$ssh_access" "test -d /tmp/$package/DEBIAN && rm -rf /tmp/$package"
+  - ssh "$ssh_access" "test -d /tmp/$package/DEBIAN && rm -rf /tmp/$package*"
 
 stages:
   - deploy-teste
@@ -79,7 +79,7 @@ Deploy teste:
     distro: debian
     release: hanokh
     priority: optional
-    version: "1.0.0-3"
+    version: "1.0.0-4"
     architecture: all
   
   script:
