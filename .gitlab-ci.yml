@@ -58,7 +58,7 @@ variables:
   ssh_user: root
   server: valentino
   ssh_access: "$ssh_user@$server"
-  package: "hanokh-hosts"
+  package: hanokh-hosts
   control_file: "/tmp/$package/DEBIAN/control"
   maintainer: "Hanokh Software Labs"
   depends: ""
@@ -79,7 +79,7 @@ Deploy teste:
     distro: debian
     release: hanokh
     priority: optional
-    version: "1.0.0"
+    version: "1.0.0-1"
     architecture: all
   
   script:
