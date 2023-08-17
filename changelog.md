@@ -2,6 +2,11 @@
 ### Hosts
 
 #### [Release] - 2023-08-17
+#### [1.4.0]
+##### Added
+- Adicionado ip do servidor oracle da inforpratica no hosts.
+
+#### [Release] - 2023-08-17
 #### [1.3.0]
 ##### Added
 - Adicionado arquivo cron com agendamento de update automático.
