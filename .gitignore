@@ -2,3 +2,5 @@
 .pydevprojects
 .settings
 .settings/*
+/.pydevproject
+/.project
